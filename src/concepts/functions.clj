@@ -36,3 +36,10 @@
   (if (zero? n)
     1
     (* n (factorial (dec n)))))
+
+;; Piping functions
+(defn people-in-scenes [scenes]
+  (->> scenes
+       (map :subject)
+       (interpose ", ")
+       (reduce str)))
