@@ -84,3 +84,11 @@
 
 :my-keyword
 (println (type :my-keyword))
+
+;; deftype (Programming abstractions)
+; generates a new type with a constructor
+(deftype Position [x y])
+
+;; defrecord
+; generates an immutable, persistent map
+(defrecord Person [name address])
