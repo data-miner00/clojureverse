@@ -8,6 +8,12 @@ This project uses [Leiningen](https://leiningen.org/) as the package manager.
 
 ## Usage
 
+For Nix environments
+
+```
+nix develop
+```
+
 To install dependencies
 
 ```
@@ -33,3 +39,6 @@ lein test
 - [Calva.io](https://calva.io/)
 - [Clojars](https://clojars.org/)
 - [Clojure programming world: 6 essential libraries and other tools](https://freshcodeit.com/freshcode-post/clojure-programming-world-frameworks-and-other-tools)
+- [Clojure Koans](https://github.com/functional-koans/clojure-koans)
+- [Learn Clojure in Y Minutes](https://learnxinyminutes.com/docs/clojure/)
+

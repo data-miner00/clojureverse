@@ -1,4 +1,4 @@
-(defproject clojureverse "0.1.0-SNAPSHOT"
+(defproject clojureverse "0.0.1"
   :description "A sandbox project for me to have fun with Clojure"
   :url "http://github.com/data-miner00/clojureverse"
   :license {:name "MIT"
